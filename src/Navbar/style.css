@@ -1,0 +1,36 @@
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #80B3FF;
+  height: 60px;
+  padding-left: 80px;
+  border-radius: 30px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 170px;
+  gap: 15px;
+}
+
+.navbar-brand {
+  color: #363062;
+}
+
+.menu .menu-btn {
+  background-color: #687EFF;
+  color:white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.menu .menu-btn:hover{
+  background-color: #BEADFA;
+}
